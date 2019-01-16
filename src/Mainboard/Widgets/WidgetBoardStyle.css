@@ -1,0 +1,428 @@
+.ytci {
+	width: 47%;
+	margin: 1em;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.youtubeChannelLogo {
+	height: 70px;
+	border-radius: 25%;
+	box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14)
+}
+
+.youtubeChannelTop {
+	padding: 0 0 15px 0;
+	display: flex;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.20);
+}
+
+.youtubeChannelInfoLogo {
+	text-align: center;
+	width: 70px;
+	height: 70px;
+	border-radius: 15%;
+	position: relative;
+	margin-left: 15px;
+}
+
+.youtubeChannelInfoTitle {
+	margin: 20px 0 5px 0;
+	flex: 1;
+	text-align: center;
+}
+
+.youtubeChannelClickers {
+	margin: 20px 0 0 0;
+}
+
+.youtubeChannelDescription {
+	padding: 10px 0px 0px 0px;
+	height: 100px;
+	overflow-y: auto;
+}
+
+.RedLogoPlaceholderInfo {
+	text-align: center;
+	width: 70px;
+	height: 70px;
+	background-color: red;
+	border-radius: 15%;
+	position: relative;
+	margin-left: 15px;
+	box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14);
+}
+
+.BlackLogoPlaceholder {
+	width: 70px;
+	height: 70px;
+	background-color: red;
+	border-radius: 15%;
+	position: relative;
+	margin-left: 15px;
+	box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14);
+}
+
+.WhiteLogoPlaceholder {
+	width: 70px;
+	height: 70px;
+	background-color: rgb(255, 255, 255);
+	border-radius: 15%;
+	position: relative;
+	margin-left: 15px;
+	box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14);
+}
+
+.PurpleLogoPlaceholder {
+	width: 70px;
+	height: 70px;
+	background-color: #9C246A;
+	border-radius: 15%;
+	position: relative;
+	margin-left: 15px;
+	box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14);
+}
+
+.ytciLogo {
+	width: 50px;
+	height: 50px;
+	margin-top: 10px;
+}
+
+.widgetTitleStyle {
+	text-align: center;
+	margin-top: 10px;
+	flex: 9;
+}
+
+.widgetTopStyle {
+	display: flex;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.20);
+}
+
+.redCross {
+	cursor: pointer;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+}
+
+.redCross:hover {
+	cursor: pointer;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	background-color: rgba(0,0,0, 0.15);
+	transition: 0.2s;
+}
+
+.popupMidification {
+	position: absolute;
+	left: 15%;
+	right: 15%;
+	bottom: 15%;
+	top: 15%;
+	margin: auto;
+	background-color: rgb(237, 237, 237);
+	transition: 1s;
+}
+
+/* STEAM WIDGETS */
+
+.avatarPlaceholder {
+	flex: 1;
+	margin: auto;
+}
+
+.avatarSteamStyle {
+	border-radius: 50%;
+	height: 100px;
+	box-shadow: 1px 1px 4px 1px rgba(0, 0, 0, 0.14);
+}
+
+.mainSteamInfoPlaceholder {
+	flex: 1;
+	display: flex;
+	padding: 10px 0px 0px 0px;
+}
+
+.firstLine {
+	display: flex;
+	padding: 1em 1em 0 1em;
+}
+
+.onlineStatus {
+	color: green;
+}
+
+.busyStatus {
+	color: red;
+}
+
+.awayStatus {
+	color: rgb(197, 197, 5);
+}
+
+.snoozeStatus {
+	color: blue;
+}
+
+/* Youtube STYLES*/
+
+.secondaryInformation {
+	padding: 1em 0 0 1em;
+}
+
+.youtubeTrendsSubtitle {
+	margin: 5px 10px 10px 0px;
+}
+
+.ytTrendsMainDiv {
+	display: flex;
+	overflow-x: auto;
+	padding: 1em;
+	height: 260px;
+}
+
+.ytVideoTitle {
+	line-height: 50px;
+	background-color: #e5e8fc;
+	overflow: hidden;
+	white-space: nowrap;
+	font-family: sans-serif;
+	padding: 0 .5em;
+	text-align: left;
+}
+
+.block-with-text {
+	overflow: hidden;
+	position: relative; 
+	line-height: 1.2em;
+	max-height: 3.6em; 
+	text-align: justify;
+	margin-right: -1em;
+	padding-right: 1em;
+	max-width: 195px;
+	font-weight: bold;
+}
+
+.block-with-text:before {
+	/* points in the end */
+	content: '...';
+	/* absolute position */
+	position: absolute;
+	/* set position to right bottom corner of block */
+	right: 0;
+	bottom: 0;
+}
+
+.block-with-text:after {
+	/* points in the end */
+	content: '';
+	/* absolute position */
+	position: absolute;
+	/* set position to right bottom corner of text */
+	right: 0;
+	width: 1em;
+	/* set width and height */
+	height: 1em;
+	margin-top: 0.2em;
+	background: white;
+}
+
+.youtubeVideoStyling {
+	border: 0px;
+	box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14);
+}
+
+.ytVideoInfoPlaceholder {	
+	border-right: 1px solid grey;
+	padding: 0px 15px 0px 15px;
+}
+
+.youtubeChannelName {
+	color: grey;
+	margin: 0px;
+}
+
+/* Steam Apps News */
+
+.allNewsContainer {
+	max-height: 200px;
+	overflow-y: auto;
+	width: 100%;
+}
+
+.steamAppNewsContainer {
+	padding: 1em;
+	border-bottom: 1px solid grey;
+}
+
+.countryMainSteam {
+	flex: 2;
+	text-align: left;
+}
+
+.statusMainSteam {
+	flex: 2;
+	text-align: right;
+}
+
+.youtubeChannelInfoLogoBlack {
+	text-align: center;
+	width: 70px;
+	height: 70px;
+	border-radius: 15%;
+	position: relative;
+	margin-left: 15px;
+	background-color: black;
+}
+
+/* The movie database style */
+
+.TMDBTitleStyle {
+	padding: 0 0 10px 10px;
+}
+
+.TMDBSubtitles {
+	padding: 0 0 0 15px;
+}
+
+/* TMDB Card */
+
+.moviemainView {
+	height: 190px;
+	display: flex;
+	flex: 1;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.20);
+}
+
+.movieimage {
+	width: 120px;
+	height: 180px;
+	margin: 5px;
+}
+
+.movietextZone {
+	flex: 1;
+	margin: 5px;
+}
+
+.movieheaderZone {
+	flex: 3;
+	flex-direction: row;
+}
+
+.movietitleText {
+	font-weight: bold;
+	font-size: 20px;
+	flex: 1;
+	flex-wrap: wrap;
+	padding-right: 5px;
+}
+
+.movievoteText {
+	font-weight: bold;
+	font-size: 26px;
+	color: #666666;
+	margin-left: 25px;
+}
+
+.moviedescriptionZone {
+	flex: 7;
+	height: 120px;
+	overflow-x: auto;
+}
+
+.moviedescriptionText {
+	font-style: italic;
+	color: #666666;
+}
+
+.moviedateZone {
+	flex: 1;
+}
+
+.moviedateText {
+	text-align: right;
+	font-size: 14px;
+}
+
+.movieFirstDiv {
+	overflow-x: auto;
+	padding: 1em;
+	height: 260px;
+}
+
+.movieLogoPlaceholder {
+	text-align: center;
+	width: 70px;
+	height: 70px;
+	background-color: darkGreen;
+	border-radius: 15%;
+	position: relative;
+	margin-left: 15px;
+	box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14);
+}
+
+.tradeLogoPlaceholder {
+	text-align: center;
+	width: 70px;
+	height: 70px;
+	background-color: rgb(255, 255, 255);
+	border-radius: 15%;
+	position: relative;
+	margin-left: 15px;
+	-webkit-box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14);
+	box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14);
+}
+
+.allAchivements {
+	max-height: 200px;
+	overflow-y: auto;
+	width: 100%;
+}
+
+.LFMLogoPlaceholder {
+	text-align: center;
+	width: 70px;
+	height: 70px;
+	background-color: #d2242b;
+	border-radius: 15%;
+	position: relative;
+	margin-left: 15px;
+	-webkit-box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14);
+	box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14);
+}
+
+.LFMButton {
+	display: inline-grid;
+	cursor: pointer;
+	-webkit-transition: 0.2s;
+	-o-transition: 0.2s;
+	transition: 0.2s;
+	background-color: #d2242b;
+	border-radius: 3px;
+	color: white;
+	padding: 10px;
+	width: 20%;
+	text-align: center;
+	-webkit-box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14);
+	box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14);
+}
+
+.LFMButton:hover {
+	display: inline-grid;
+	cursor: pointer;
+	-webkit-transition: 0.2s;
+	-o-transition: 0.2s;
+	transition: 0.2s;
+	background-color: #b30007;
+	border-radius: 3px;
+	color: white;
+	padding: 10px;
+	width: 20%;
+	text-align: center;
+	-webkit-box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14);
+	box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14);
+}

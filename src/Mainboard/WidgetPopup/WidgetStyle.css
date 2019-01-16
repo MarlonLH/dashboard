@@ -1,0 +1,269 @@
+.widgetBox {
+	width: 45%;
+	margin: 1em;
+	display: inline-block;
+	text-align: center;
+}
+
+/* Logo Placeholder */
+
+.RedLogoPlaceholder {
+	width: 70px;
+	height: 70px;
+	background-color: red;
+	border-radius: 15%;
+	position: relative;
+	margin-left: 15px;
+	box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14);
+}
+
+.BlackLogoPlaceholder {
+	width: 70px;
+	height: 70px;
+	background-color: black;
+	border-radius: 15%;
+	position: relative;
+	margin-left: 15px;
+	box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14);
+}
+
+.darkGreenLogoPlaceholder {
+	width: 70px;
+	height: 70px;
+	background-color: darkGreen;
+	border-radius: 15%;
+	position: relative;
+	margin-left: 15px;
+	box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14);
+}
+
+.widgetSubtitle {
+	margin: 10px 0 10px 0;
+}
+
+.logoWidget {
+	width: 50px;
+	height: 50px;
+	margin-top: 10px;
+}
+
+.infoPlaceholder {
+	margin-top: -20px;
+	background-color: white;
+	border-radius: 5px;
+	text-align: left;
+	padding: 10px;
+	box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14);
+}
+
+.topPart {
+	display: flex;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.20);
+}
+
+.titleStyle {
+	text-align: center;
+	margin-top: 15px;
+	flex: 9;
+}
+
+.inputWidget {
+	padding-left: 10px;
+	width: 96%;
+	border: 1px solid rgba(0, 0, 0, 0.70);
+	height: 26px;
+	border-radius: 5px;
+	font-size: 14px;
+}
+
+.inputWidget:focus {
+	padding-left: 10px;
+	width: 96%;
+	border: 1px solid black;
+	height: 26px;
+	border-radius: 5px;
+	font-size: 14px;
+}
+
+ /* Tooltip container */
+.widgetTooltip {
+	position: relative;
+	display: inline-block;
+	background-color: lightskyblue;
+	max-width: 20px;
+	-ms-flex: 1 1;
+	flex: 1 1;
+	width: 10px;
+	height: 20px;
+	border-radius: 50%;
+	text-align: center;
+	font-size: 14px;
+}
+
+/* Tooltip text */
+.widgetTooltip .widgetTooltiptext {
+	visibility: hidden;
+	width: 120px;
+	background-color: #555;
+	color: #fff;
+	text-align: center;
+	padding: 5px 0;
+	border-radius: 6px;
+	font-size: 12px;
+
+	/* Position the tooltip text */
+	position: absolute;
+	z-index: 1;
+	bottom: 125%;
+	left: 50%;
+	margin-left: -60px;
+
+	/* Fade in tooltip */
+	opacity: 0;
+	transition: opacity 0.3s;
+}
+
+/* Tooltip arrow */
+.widgetTooltip .widgetTooltiptext::after {
+	content: "";
+	position: absolute;
+	top: 100%;
+	left: 50%;
+	margin-left: -5px;
+	border-width: 5px;
+	border-style: solid;
+	border-color: #555 transparent transparent transparent;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.widgetTooltip:hover .widgetTooltiptext {
+	visibility: visible;
+	opacity: 1;
+}
+
+.selectTimer {
+	background-color: white;
+	border-radius: 5px;
+	height: 30px;
+	font-size: 14px;
+	border: 1px solid grey;
+}
+
+/* Button color */
+
+.redButton {
+	display: inline-grid;
+	cursor: pointer;
+	transition: 0.2s;
+	background-color:rgb(255, 0, 0);
+	border-radius: 3px;
+	color: white;
+	padding: 10px;
+	width: 20%;
+	text-align: center;
+	box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14);
+}
+
+.redButton:hover {
+	display: inline-grid;
+	cursor: pointer;
+	transition: 0.2s;
+	background-color:rgb(180, 0, 0);
+	border-radius: 3px;
+	color: white;
+	padding: 10px;
+	width: 20%;
+	text-align: center;
+	box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14);
+}
+
+.blackButton {
+	display: inline-grid;
+	cursor: pointer;
+	transition: 0.2s;
+	background-color:rgb(0, 0, 0);
+	border-radius: 3px;
+	color: white;
+	padding: 10px;
+	width: 20%;
+	text-align: center;
+	box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14);
+}
+
+.darkGreenButton {
+	display: inline-grid;
+	cursor: pointer;
+	transition: 0.2s;
+	background-color:darkgreen;
+	border-radius: 3px;
+	color: white;
+	padding: 10px;
+	width: 20%;
+	text-align: center;
+	box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14);
+}
+
+.darkGreenButton:hover {
+	display: inline-grid;
+	cursor: pointer;
+	transition: 0.2s;
+	background-color:green;
+	border-radius: 3px;
+	color: white;
+	padding: 10px;
+	width: 20%;
+	text-align: center;
+	box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14);
+}
+
+
+.whiteButton {
+	display: inline-grid;
+	cursor: pointer;
+	transition: 0.2s;
+	background-color:white;
+	border-radius: 3px;
+	color: white;
+	padding: 10px;
+	width: 20%;
+	text-align: center;
+	box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14);
+	border: 1px solid black;
+	color: black;
+}
+
+.whiteButton:hover {
+	display: inline-grid;
+	cursor: pointer;
+	transition: 0.2s;
+	background-color:lightgrey;
+	border-radius: 3px;
+	padding: 10px;
+	width: 20%;
+	text-align: center;
+	box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14);
+	border: 1px solid black;
+	color: black;
+}
+
+.buttonHolder {
+	text-align: center;
+}
+
+.titleChannel {
+	margin: 0 0 5px 0;
+}
+
+/* Trends Style */
+
+.trendsFlexDisplay {
+	display: flex;
+	flex: 1;
+	padding: 1em 0 1em 0;
+}
+
+.trendsSubpart {
+	display: flex;
+	flex: 1;
+	justify-content: center;
+}

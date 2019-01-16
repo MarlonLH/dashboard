@@ -1,0 +1,20 @@
+.dashboardPanel {
+	width: 95%;
+	margin-left: 2.5%;
+	margin-top: 2%;
+}
+
+.dashboardPanelTitle {
+	text-align: left;
+	font-size: 18px;
+	color: grey;
+}
+
+.widgetsPlaceholder {
+	padding: 2em 0 0 0;
+	overflow-y: auto;
+	max-height: 86vh;
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+}

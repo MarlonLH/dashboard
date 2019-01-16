@@ -1,0 +1,6 @@
+.mainboard {
+	flex: 1;
+	background-color: rgb(237, 237, 237);
+	box-shadow: inset 1em 0 1.5em rgb(215, 215, 215);
+	max-width: calc(100vw - 300px);
+}

@@ -1,0 +1,38 @@
+.headerPanel {
+	display: flex;
+	flex: 1;
+	flex-direction: row;
+}
+
+.headerPanelTitle {
+	flex: 1;
+	text-align: left;
+	font-size: 18px;
+	color: grey;
+	margin-top: 7px;
+}
+
+.headerPanelButtons {
+	flex: 1;
+	text-align: right;
+}
+
+.blueHeaderButton {
+	display: -webkit-box;
+	cursor: pointer;
+	transition: 0.2s;
+	background-color: rgb(160, 160, 255);
+	border-radius: 3px;
+	color: white;
+	padding: 10px;
+}
+
+.blueHeaderButton:hover {
+	display: -webkit-box;
+	cursor: pointer;
+	transition: 0.2s;
+	background-color: rgb(121, 121, 255);
+	border-radius: 3px;
+	color: white;
+	padding: 10px;
+}

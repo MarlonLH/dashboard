@@ -1,0 +1,213 @@
+{
+    "client": {
+        "host": "localhost:8080"
+    },
+    "server": {
+        "current_time" : "1539760175",
+        "services": [{
+            "name": "youtube",
+            "widgets": [{
+                "name": "Channel Info",
+                "description": "Show the main information of the channel you want",
+                "params": [{
+                    "url": "video url",
+                    "type": "string"
+                }]
+            }, {
+                "name": "Youtube Trends",
+                "description": "Choose which country trends you want to see",
+                "params": [{
+                    "url": "video url",
+                    "type": "string"
+                }, {
+                    "number": "number of video",
+                    "type": "integer"
+                }]
+            }]
+        }, {
+            "name": "github",
+            "widgets": [{
+                "name": "search user info",
+                "description": "Show informations about the selected user",
+                "params": [{
+                    "name": "keyword",
+                    "type": "string"
+                }]
+            }]
+        }, {
+            "name": "steam",
+            "widgets": [{
+                "name": "Steam Player Stats",
+                "description": "Show the main information of the profile selected",
+                "params": [{
+                    "id": "player id",
+                    "type": "integer"
+                }]
+            }, {
+                "name": "Steam Apps News",
+                "description": "Show latest news of the application",
+                "params": [{
+                    "id": "app id",
+                    "type": "string"
+                }, {
+                    "number": "number of news",
+                    "type": "integer"
+                }]
+            }, {
+                "name": "Steam Game Achievements",
+                "description": "Show all of a game achievements and the percentage of success by the community",
+                "params": [{
+                    "id": "app id",
+                    "type": "string"
+                }]
+            }]
+        }, {
+            "name": "weather",
+            "widgets": [{
+                "name": "Weather Info",
+                "description": "Show the main information about the weather of the city want",
+                "params": [{
+                    "city": "city name",
+                    "type": "string"
+                }]
+            }]
+        }, {
+            "name": "movie",
+            "widgets": [{
+                "name": "Search Movie",
+                "description": "Search for a movie on TMDB",
+                "params": [{
+                    "name": "name of the movie",
+                    "type": "string"
+                }, {
+                    "language": "language selected",
+                    "type": "string"
+                }]
+            }, {
+                "name": "Search Serie",
+                "description": "Search for a serie on TMDB",
+                "params": [{
+                    "name": "name of the serie",
+                    "type": "string"
+                }, {
+                    "language": "language selected",
+                    "type": "string"
+                }]
+            }, {
+                "name": "Search Actor",
+                "description": "Search for an actor on TMDB",
+                "params": [{
+                    "name": "name of the actor",
+                    "type": "string"
+                }, {
+                    "language": "language selected",
+                    "type": "string"
+                }]
+            }]
+        }, {
+            "name": "trade",
+            "widgets": [{
+                "name": "Stock Value",
+                "description": "Show the value of an action",
+                "params": [{
+                    "name": "stock name",
+                    "type": "string"
+                }]
+            }, {
+                "name": "Company News",
+                "description": "Show the last new related to a company",
+                "params": [{
+                    "name": "stock name",
+                    "type": "string"
+                }]
+            }]
+        }, {
+            "name": "authentication",
+            "widgets": [{
+                "name": "facebook",
+                "description": "Facebook Authentication",
+                "params": [{}]
+            }, {
+                "name": "google",
+                "description": "Google Authentication",
+                "params": [{}]
+            }, {
+                "name": "linkedin",
+                "description": "Linkedin Authentication",
+                "params": [{}]
+            }, {
+                "name": "github",
+                "description": "Github Authentication",
+                "params": [{}]
+            }]
+        }, {
+            "name": "rss",
+            "widgets": [{
+                "name": "flux rss",
+                "description": "Display rss flux",
+                "params": [{
+                    "name": "rss link",
+                    "type": "string"
+                }, {
+                    "name": "number of link",
+                    "type": "integer"
+                }]
+            }]
+        }, {
+            "name": "new york times",
+            "widgets": [{
+                "name": "new york times",
+                "description": "Display news",
+                "params": [{
+                    "name": "keyword",
+                    "type": "string"
+                }]
+            }]
+        }, {
+            "name": "last fm",
+            "widgets": [{
+                "name": "search top albums by genre",
+                "description": "Show the top albums for a genre",
+                "params": [{
+                    "name": "keyword",
+                    "type": "string"
+                }]
+            }, {
+                "name": "search top artists by genre",
+                "description": "Show the top artists for a genre",
+                "params": [{
+                    "name": "keyword",
+                    "type": "string"
+                }]
+            }, {
+                "name": "search top tracks by genre",
+                "description": "Show the top tracks for a genre",
+                "params": [{
+                    "name": "keyword",
+                    "type": "string"
+                }]
+            }, {
+                "name": "search album",
+                "description": "Show albums by keyword",
+                "params": [{
+                    "name": "keyword",
+                    "type": "string"
+                }]
+            }, {
+                "name": "search artist",
+                "description": "Show artists by keyword",
+                "params": [{
+                    "name": "keyword",
+                    "type": "string"
+                }]
+            }, {
+                "name": "search tracks",
+                "description": "Show tracks by keyword",
+                "params": [{
+                    "name": "keyword",
+                    "type": "string"
+                }]
+            }]
+        }]
+    }
+}

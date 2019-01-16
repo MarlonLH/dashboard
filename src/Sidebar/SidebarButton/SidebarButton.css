@@ -1,0 +1,37 @@
+.buttonSidebar {
+	margin-top: 20px;
+	width: 80%;
+	display: -webkit-box;
+	padding: 5px;
+	cursor: pointer;
+	transition: 0.2s;
+}
+
+.buttonSidebar:hover {
+	margin-top: 20px;
+	/*background-color: rgb(160, 160, 255);*/
+	border-radius: 3px;
+	padding-left: 10px;
+}
+
+.buttonSidebarClicked {
+	margin-top: 20px;
+	width: 80%;
+	display: -webkit-box;
+	padding: 5px;
+	cursor: pointer;
+	transition: 0.2s;
+	background-color: rgb(160, 160, 255);
+	border-radius: 3px;
+}
+
+.imageSidebarbutton {
+	height: 40px;
+	display: block;
+}
+
+.pTagSidebarbutton {
+	margin-top: 10px;
+	margin-left: 20px;
+	margin-bottom: 0px;
+}
