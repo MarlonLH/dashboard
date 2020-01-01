@@ -11,6 +11,12 @@ To do so we had to implement a few **Services** and **Widgets**.
 
 Also, our dashboard in working using React.
 
+# Authors
+
+[Marlon L'HUILLIER](https://github.com/MarlonLH/)
+[Arnaud CLERC](https://github.com/arnaudclerc)
+[Laurent COLOMA](https://github.com/LaurentColoma)
+[Yann FLORIS](https://github.com/YFloris)
 
 
 # How to run the project
