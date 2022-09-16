@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "bootstrap": "^3.3.7",
+    "bootstrap": "^3.4.1",
     "glamor": "^2.20.40",
     "prop-types": "^15.6.2",
     "react": "^16.5.2",
